@@ -4,7 +4,7 @@ const path = require('path');
 
 const postmanApiKey = process.env.POSTMAN_API_KEY;
 const workspaceId = process.env.POSTMAN_WORKSPACE_ID;
-const collectionId = process.env.COLLECTION_ID;
+const collectionId = process.env.TEXT_GENERATION_COLLECTION_ID;
 const apiSpecPath = path.join(__dirname, '../api-specs/latest-spec.json');
 
 const apiSpec = JSON.parse(fs.readFileSync(apiSpecPath, 'utf8'));
@@ -15,7 +15,7 @@ const collectionUpdatePayload = {
             name: 'Gemini API Collection',
             schema: 'https://schema.getpostman.com/json/collection/v2.1.0/collection.json'
         },
-        item: apiSpec.paths // This assumes a direct mapping; adjust as necessary
+        item: apiSpec.paths // This assumes a direct mapping
     }
 };
 

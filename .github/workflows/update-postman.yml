@@ -1,0 +1,42 @@
+name: Update Postman Collections
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Runs every Sunday at midnight
+  workflow_dispatch:      # Allows manual triggering of the workflow
+
+jobs:
+  update-collections:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set Up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+
+      - name: Install Dependencies
+        run: npm install axios
+
+      - name: Fetch Latest API Specifications
+        run: node scripts/fetch-api-specs.js
+        env:
+          API_SPEC_URL: ${{ secrets.API_SPEC_URL }}
+
+      - name: Update Postman Collections
+        run: node scripts/update-postman-collections.js
+        env:
+          POSTMAN_API_KEY: ${{ secrets.POSTMAN_API_KEY }}
+          POSTMAN_WORKSPACE_ID: ${{ secrets.POSTMAN_WORKSPACE_ID }}
+          COLLECTION_ID: ${{ secrets.TEXT_GENERATION_COLLECTION_ID }}
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "Update Postman collections and documentation" || echo "No changes to commit"
+          git push

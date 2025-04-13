@@ -1,0 +1,1 @@
+This is the codebase for the Gemini Workspace created in postman.This repo contains the JSON code and the github workflows required to automate the fetching of latest gemini api changes and updating the postman workspace

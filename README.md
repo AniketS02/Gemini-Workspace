@@ -7,7 +7,7 @@ This project is aimed for the developers to interact with the Gemini API's throu
 
 
 # Get Started
-This Gemini-Workspace Repository contains the JSON exported file of the Gemini-API collection and the environments - Gemini-Testing and Gemini-Production
+This Gemini-Workspace Repository contains the JSON exported file of the Gemini-API collection containing all the Gemini features and API requests, Gemini - Testing and Production environment ,Scripts, GitHub Workflows for Automation via GitHub Action to ensure that the Workspace remains up to date by automatically fetching the latest Gemini API changes and updating the workspace on regular intervals.
 
 ## Step 1 : Fork the collection
 

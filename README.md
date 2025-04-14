@@ -11,7 +11,7 @@ This Gemini-Workspace Repository contains the JSON exported file of the Gemini-A
 
 ## Step 1 : Fork the collection
 
-You cannot directly make changes to the orignal collection , so you need to fork it first before using it. To fork the collection , simply go to the Gemini API collection -https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/collection/42721875-03179c6a-0bf6-4f72-85c4-25a129a1e099?action=share&creator=42721875&active-environment=42721875-f63662b7-638b-41da-a6d5-0d1225b45409 and click the fork button on the top right side. You can also click the below button to get the collection ⬇️.
+You cannot directly make changes to the orignal collection , so you need to fork it first before using it. To fork the collection , simply go to the Gemini API collection -https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/collection/42721875-03179c6a-0bf6-4f72-85c4-25a129a1e099?action=share&creator=42721875&active-environment=42721875-f63662b7-638b-41da-a6d5-0d1225b45409 and click the fork button on the top right side. You can also click the below button to fork the collection ⬇️.
 
   [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman">](https://app.getpostman.com/run-collection/42721875-03179c6a-0bf6-4f72-85c4-25a129a1e099?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D42721875-03179c6a-0bf6-4f72-85c4-25a129a1e099%26entityType%3Dcollection%26workspaceId%3D2f9d5f9f-aea6-4fdf-bb27-0b87d62b69f9)
 

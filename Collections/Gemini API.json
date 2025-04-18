@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "03179c6a-0bf6-4f72-85c4-25a129a1e099",
 		"name": "Gemini API",
-		"description": "<img src=\"https://content.pstmn.io/56785bdd-71d7-4a39-94db-5e322917af66/ZG9jcyBpbWctMS5qcGc=\" alt=\"WELCOME%20TO%20GEMINI%20WORKSPACE%20IN%20POSTMAN\" width=\"617\" height=\"347\">\n\nThis is a Postman Workspace for interacting with Google's Gemini APIs, providing a central hub for exploration, integration, and troubleshooting.Thus streamlining the process for developers to get started with Gemini and reduce the initial learning curve.This is a prototype for GSoC'25 under Google Deepmind.\n\n# Get Started\n\n## Step 1 : Fork the collection\n\nYou cannot directly make changes to the orignal collection , so you need to fork it first before using it. To fork the collection , simply click the fork button on the top right side.With the new update the developers can now send API requests without forking the workspace or collection. You can also click the below button to get the collection.\n\n[<img src=\"https://run.pstmn.io/button.svg\" alt=\"Run In Postman\">](https://app.getpostman.com/run-collection/42721875-03179c6a-0bf6-4f72-85c4-25a129a1e099?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D42721875-03179c6a-0bf6-4f72-85c4-25a129a1e099%26entityType%3Dcollection%26workspaceId%3D2f9d5f9f-aea6-4fdf-bb27-0b87d62b69f9)\n\n<img src=\"https://content.pstmn.io/3a5b447d-6821-42c8-9218-87fcc06176ba/Zm9yayBpbWcucG5n\">\n\n## Step 2 : Getting the API key\n\nTo get started working with Gemini APIs, you must first be authorized to access them. The easiest way to authenticate to the Gemini API is to configure an API key.\n\n1. Go to the [Google AI Studio ](https://aistudio.google.com/prompts/new_chat) and click on **Get API key button**.\n    \n\n<img src=\"https://content.pstmn.io/32c9c665-ad5a-4538-b86e-11b1c007c7fc/MXN0IEd1aWRlLnBuZw==\">\n\n2\\. Click on **Create API key button** to create the API key.\n\n<img src=\"https://content.pstmn.io/7c531cdf-2128-40ed-8f66-17a1acf126fb/R3VpZGUgMi5wbmc=\">\n\n3\\. Copy the generated API key and you are good to go !\n\n## Step 3 : Configure your API key in Postman using Environments\n\nNow that you have generated your API key , it's time to store it in the Gemini - testing environment so that it can be used as an authorization to access the Gemini API's and send requests.\n\n1.Go to Gemini - testing Environment section and set the api key to your API key value\n\n<img src=\"https://content.pstmn.io/36484c28-e942-4e06-8c2e-e212eeee665f/U2NyZWVuc2hvdCAyMDI1LTAzLTA5IDE5MjQxNy5wbmc=\" width=\"617\" height=\"111\">\n\nand now that you have configured the key , you can start exploring the collection !\n\n# 🛠️ Troubleshooting or Stuck ?\n\nIf you’re having issues:\n\n- Double-check if your API key is correctly set in the testing environment\n    \n- Ensure you’ve selected the right environment. **Gemini-Testing Environment**\n    \n- Look for detailed errors in the **response body and console**\n    \n\n**Watch this video**: [Getting Started with the Gemini Workspace](https://youtu.be/YETs9UNij1I)\n\nIf you are facing any issues , kindly contact the Gemini Team  \nEmail - [help@gemini-workspace-postman.com<br>](https://help@gemini-workspace-postman.com)\n\n# Gemini Models\n\n| **Model Variant** | **Input** | **Output** | **Optimised for** |\n| --- | --- | --- | --- |\n| [Gemini 2.5 Pro Preview](https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro-preview-03-25)  <br>_**gemini-2.5-pro-preview-03-25**_ | Audio, images, videos, and text | Text | Enhanced thinking and reasoning, multimodal understanding, advanced coding, and more |\n| [Gemini 2.0 Flash](https://ai.google.dev/gemini-api/docs/models#gemini-2.0-flash)  <br>_**gemini-2.0-flash**_ | Audio, images, videos, and text | Text, images (experimental), and audio (coming soon) | Next generation features, speed, thinking, realtime streaming, and multimodal generation |\n| [Gemini 2.0 Flash-Lite](https://ai.google.dev/gemini-api/docs/models#gemini-2.0-flash-lite)  <br>_**gemini-2.0-flash-lite**_ | Audio, images, videos, and text | Text | Cost efficiency and low latency |\n| [Gemini 1.5 Flash<br>](https://ai.google.dev/gemini-api/docs/models#gemini-1.5-flash)_**gemini-1.5-flash**_ | Audio, images, videos, and text | Text | Fast and versatile performance across a diverse variety of tasks |\n| [Gemini 1.5 Flash-8B<br>](https://ai.google.dev/gemini-api/docs/models#gemini-1.5-flash-8b)_**gemini-1.5-flash-8b**_ | Audio, images, videos, and text | Text | High volume and lower intelligence tasks |\n| [Gemini 1.5 Pro<br>](https://ai.google.dev/gemini-api/docs/models#gemini-1.5-pro)_**gemini-1.5-pro**_ | Audio, images, videos, and text | Text | Complex reasoning tasks requiring more intelligence |\n| [Gemini Embedding](https://ai.google.dev/gemini-api/docs/models#gemini-embedding)  <br>_**gemini-embedding-exp**_ | Text | Text embeddings | Measuring the relatedness of text strings |\n| [Imagen 3](https://ai.google.dev/gemini-api/docs/models#imagen-3)  <br>imagen-3.0-generate-002 | Text | Images | Our most advanced image generation model |\n| [Veo 2](https://ai.google.dev/gemini-api/docs/models#veo-2)  <br>veo-2.0-generate-001 | Text, images | Video | High quality video generation |\n| [Gemini 2.0 Flash Live](https://ai.google.dev/gemini-api/docs/models#live-api)  <br>_**gemini-2.0-flash-live-001**_ | Audio, video, and text | Text, audio | Low-latency bidirectional voice and video interactions |\n\n# [](https://help@gemini-workspace-postman.com)Text Generation\n\n- [Chatbot](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-7fed869c-5a71-4445-88d9-9e3077e1fd8d?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Generate Text from Text input](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-b7077c27-a665-433b-bcec-920ce2a325b9?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Generate Text from text-and-image input](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-60cc8294-c920-4a2a-97bc-36615ab585ca?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Generate a text stream](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-6e73472e-1b56-49b4-ac22-372e0c33abfd?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Interactive Chat](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-b53a0572-82d4-4506-a17d-47db14d207d8?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Interactive Stream Chat](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-fd669c8f-b838-4446-8edf-70a253ba33b2?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [System Instructions](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-f6889233-d294-4896-8453-7cfa28752d77?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n\n# Parameter Variation\n\n- [top_p variation](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-ca19ae76-df3e-47b9-9303-2b257952daa0?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [top_k variation](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-15b9140a-66d6-4d94-9e85-2caf69affb60?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [temperature variation](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-24289a6d-628a-496c-9a04-d202e11a942c?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [stopSequences Variation](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-d0bd584a-e23c-48c2-b062-aac4fb4ffc1d?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [maxOutputTokens Variation](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-ce246af9-2f76-4ae3-bfe2-ad80efc8c3e4?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n\n# Image Generation\n\n- [Generate Image from text](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-92fe30ac-cb28-43b9-ab24-ed10d729e609?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Edit an image](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-de1fcc23-1b22-4ccf-82d5-c8ba8113ea39?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n\n# Code Execution\n\n- [Code execution](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-6084c127-3592-46b6-abb3-ed81d9a1edfe?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Code execution in chat](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-75c6ec21-0958-4ddf-ae1d-01f318468b64?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n\n# Vision\n\n- Video\n    \n    - [1.Get the Upload_url](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-f5ba8b36-0301-4842-a7e5-20bdc49a0050?action=share&source=copy-link&creator=42721875&ctx=documentation)\n        \n    - [2.Upload Video](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-1754731a-de91-4736-99f3-45092be2723c?action=share&source=copy-link&creator=42721875&ctx=documentation)\n        \n    - [3.Generate Content using the video file](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-6f6ad63b-36d1-4548-ac9b-463273f07ed7?action=share&source=copy-link&creator=42721875&ctx=documentation)\n        \n    - [Get all the stored video files](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-31a16d1b-e0cf-4f03-ab4a-7fbe2ceb1a75?action=share&source=copy-link&creator=42721875&ctx=documentation)\n        \n- [Image Input](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-c00c971e-61ce-4c5d-9e29-5b55c016b215?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Multiple image input](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-674cbefe-ff21-4e4d-adaa-4d1b4f25e38c?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Bounding Box for an object](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-4b3953f6-2502-428d-bd52-7874e59e2817?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n\n# Audio Understanding\n\n- [1.Get the Upload_url](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-78eb9888-f3e8-4cab-9188-029c0070e4d7?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [2.Upload Binary Audio](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-5dc43d8c-5ac7-47e4-aaf6-5c6b911cc6a4?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [3.Generate Content using the Audio file](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-cff0d821-48d3-45a8-9c67-83d247922afb?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Get all the stored audio files](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-e6039485-3762-4bcc-a7da-406642273c95?action=share&source=copy-link&creator=42721875&ctx=documentation)",
+		"description": "<img src=\"https://content.pstmn.io/56785bdd-71d7-4a39-94db-5e322917af66/ZG9jcyBpbWctMS5qcGc=\" alt=\"WELCOME%20TO%20GEMINI%20WORKSPACE%20IN%20POSTMAN\" width=\"617\" height=\"347\">\n\nThis is a Gemini Workspace for interacting with Google's Gemini APIs, providing a central hub for exploration, integration, and troubleshooting.Thus streamlining the process for developers to get started with Gemini and reduce the initial learning curve.\n\n# Get Started\n\n## Step 1 : Fork the collection\n\nYou cannot directly make changes to the orignal collection , so you need to fork it first before using it. To fork the collection , simply click the fork button on the top right side.With the new update the developers can now send API requests without forking the workspace or collection. You can also click the below button to fork the collection.\n\n[<img src=\"https://run.pstmn.io/button.svg\" alt=\"Run In Postman\">](https://app.getpostman.com/run-collection/42721875-03179c6a-0bf6-4f72-85c4-25a129a1e099?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D42721875-03179c6a-0bf6-4f72-85c4-25a129a1e099%26entityType%3Dcollection%26workspaceId%3D2f9d5f9f-aea6-4fdf-bb27-0b87d62b69f9)\n\n<img src=\"https://content.pstmn.io/3a5b447d-6821-42c8-9218-87fcc06176ba/Zm9yayBpbWcucG5n\">\n\n## Step 2 : Getting the API key\n\nTo get started working with Gemini APIs, you must first be authorized to access them. The easiest way to authenticate to the Gemini API is to configure an API key.\n\n1. Go to the [Google AI Studio ](https://aistudio.google.com/prompts/new_chat) and click on **Get API key button**.\n    \n\n<img src=\"https://content.pstmn.io/32c9c665-ad5a-4538-b86e-11b1c007c7fc/MXN0IEd1aWRlLnBuZw==\">\n\n2\\. Click on **Create API key button** to create the API key.\n\n<img src=\"https://content.pstmn.io/7c531cdf-2128-40ed-8f66-17a1acf126fb/R3VpZGUgMi5wbmc=\">\n\n3\\. Copy the generated API key and you are good to go !\n\n## Step 3 : Configure your API key in Postman using Environments\n\nNow that you have generated your API key , it's time to store it in the Gemini - testing environment so that it can be used as an authorization to access the Gemini API's and send requests.\n\n1.Go to Gemini - testing Environment section and set the api key to your API key value\n\n<img src=\"https://content.pstmn.io/36484c28-e942-4e06-8c2e-e212eeee665f/U2NyZWVuc2hvdCAyMDI1LTAzLTA5IDE5MjQxNy5wbmc=\" width=\"617\" height=\"111\">\n\nand now that you have configured the key , you can start exploring the collection !\n\n# 🛠️ Troubleshooting or Stuck ?\n\nIf you’re having issues:\n\n- Double-check if your API key is correctly set in the testing environment\n    \n- Ensure you’ve selected the right environment. **Gemini-Testing Environment**\n    \n- Look for detailed errors in the **response body and console**\n    \n\n**Watch this video**: [Getting Started with the Gemini Workspace](https://youtu.be/YETs9UNij1I)\n\nIf you are facing any issues , kindly contact the Gemini Team  \nEmail - [help@gemini-workspace-postman.com<br>](https://help@gemini-workspace-postman.com)\n\n# Gemini Models\n\n| **Model Variant** | **Input** | **Output** | **Optimised for** |\n| --- | --- | --- | --- |\n| [Gemini 2.5 Pro Preview](https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro-preview-03-25)  <br>_**gemini-2.5-pro-preview-03-25**_ | Audio, images, videos, and text | Text | Enhanced thinking and reasoning, multimodal understanding, advanced coding, and more |\n| [Gemini 2.0 Flash](https://ai.google.dev/gemini-api/docs/models#gemini-2.0-flash)  <br>_**gemini-2.0-flash**_ | Audio, images, videos, and text | Text, images (experimental), and audio (coming soon) | Next generation features, speed, thinking, realtime streaming, and multimodal generation |\n| [Gemini 2.0 Flash-Lite](https://ai.google.dev/gemini-api/docs/models#gemini-2.0-flash-lite)  <br>_**gemini-2.0-flash-lite**_ | Audio, images, videos, and text | Text | Cost efficiency and low latency |\n| [Gemini 1.5 Flash<br>](https://ai.google.dev/gemini-api/docs/models#gemini-1.5-flash)_**gemini-1.5-flash**_ | Audio, images, videos, and text | Text | Fast and versatile performance across a diverse variety of tasks |\n| [Gemini 1.5 Flash-8B<br>](https://ai.google.dev/gemini-api/docs/models#gemini-1.5-flash-8b)_**gemini-1.5-flash-8b**_ | Audio, images, videos, and text | Text | High volume and lower intelligence tasks |\n| [Gemini 1.5 Pro<br>](https://ai.google.dev/gemini-api/docs/models#gemini-1.5-pro)_**gemini-1.5-pro**_ | Audio, images, videos, and text | Text | Complex reasoning tasks requiring more intelligence |\n| [Gemini Embedding](https://ai.google.dev/gemini-api/docs/models#gemini-embedding)  <br>_**gemini-embedding-exp**_ | Text | Text embeddings | Measuring the relatedness of text strings |\n| [Imagen 3](https://ai.google.dev/gemini-api/docs/models#imagen-3)  <br>imagen-3.0-generate-002 | Text | Images | Our most advanced image generation model |\n| [Veo 2](https://ai.google.dev/gemini-api/docs/models#veo-2)  <br>veo-2.0-generate-001 | Text, images | Video | High quality video generation |\n| [Gemini 2.0 Flash Live](https://ai.google.dev/gemini-api/docs/models#live-api)  <br>_**gemini-2.0-flash-live-001**_ | Audio, video, and text | Text, audio | Low-latency bidirectional voice and video interactions |\n\n# [](https://help@gemini-workspace-postman.com)Text Generation\n\n- [Chatbot](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-7fed869c-5a71-4445-88d9-9e3077e1fd8d?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Generate Text from Text input](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-b7077c27-a665-433b-bcec-920ce2a325b9?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Generate Text from text-and-image input](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-60cc8294-c920-4a2a-97bc-36615ab585ca?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Generate a text stream](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-6e73472e-1b56-49b4-ac22-372e0c33abfd?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Interactive Chat](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-b53a0572-82d4-4506-a17d-47db14d207d8?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Interactive Stream Chat](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-fd669c8f-b838-4446-8edf-70a253ba33b2?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [System Instructions](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-f6889233-d294-4896-8453-7cfa28752d77?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n\n# Parameter Variation\n\n- [top_p variation](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-ca19ae76-df3e-47b9-9303-2b257952daa0?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [top_k variation](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-15b9140a-66d6-4d94-9e85-2caf69affb60?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [temperature variation](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-24289a6d-628a-496c-9a04-d202e11a942c?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [stopSequences Variation](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-d0bd584a-e23c-48c2-b062-aac4fb4ffc1d?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [maxOutputTokens Variation](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-ce246af9-2f76-4ae3-bfe2-ad80efc8c3e4?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n\n# Image Generation\n\n- [Generate Image from text](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-92fe30ac-cb28-43b9-ab24-ed10d729e609?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Edit an image](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-de1fcc23-1b22-4ccf-82d5-c8ba8113ea39?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n\n# Code Execution\n\n- [Code execution](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-6084c127-3592-46b6-abb3-ed81d9a1edfe?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Code execution in chat](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-75c6ec21-0958-4ddf-ae1d-01f318468b64?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n\n# Vision\n\n- Video\n    \n    - [1.Get the Upload_url](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-f5ba8b36-0301-4842-a7e5-20bdc49a0050?action=share&source=copy-link&creator=42721875&ctx=documentation)\n        \n    - [2.Upload Video](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-1754731a-de91-4736-99f3-45092be2723c?action=share&source=copy-link&creator=42721875&ctx=documentation)\n        \n    - [3.Generate Content using the video file](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-6f6ad63b-36d1-4548-ac9b-463273f07ed7?action=share&source=copy-link&creator=42721875&ctx=documentation)\n        \n    - [Get all the stored video files](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-31a16d1b-e0cf-4f03-ab4a-7fbe2ceb1a75?action=share&source=copy-link&creator=42721875&ctx=documentation)\n        \n- [Image Input](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-c00c971e-61ce-4c5d-9e29-5b55c016b215?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Multiple image input](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-674cbefe-ff21-4e4d-adaa-4d1b4f25e38c?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Bounding Box for an object](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-4b3953f6-2502-428d-bd52-7874e59e2817?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n\n# Audio Understanding\n\n- [1.Get the Upload_url](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-78eb9888-f3e8-4cab-9188-029c0070e4d7?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [2.Upload Binary Audio](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-5dc43d8c-5ac7-47e4-aaf6-5c6b911cc6a4?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [3.Generate Content using the Audio file](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-cff0d821-48d3-45a8-9c67-83d247922afb?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Get all the stored audio files](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-e6039485-3762-4bcc-a7da-406642273c95?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n\n# Video Generation using Veo\n\n- [Generate Video from text input](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-b438dd81-c44e-4667-bc9a-90857bb9f80c?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n\n# Document Understanding\n\n- As Encoded PDF\n    \n    - [PDF input](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-dfce7fe7-e6d6-4097-a42f-956c4a331e70?action=share&source=copy-link&creator=42721875&ctx=documentation)\n        \n- Upload PDF for larger files\n    \n    - [1.PDF upload_url](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-cde978b9-32e4-4bf9-8e72-066d1a7354d3?action=share&source=copy-link&creator=42721875&ctx=documentation)\n        \n    - [2.Upload PDF](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-949173bd-18f5-4cba-9b0b-1d6cc220db5d?action=share&source=copy-link&creator=42721875&ctx=documentation)\n        \n    - [3.Generate Content using the PDF](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-5c2d3b78-efa1-4089-90f1-cd4f1da2f7a6?action=share&source=copy-link&creator=42721875&ctx=documentation)\n        \n\n# Uploaded File Management\n\n- [Get all the uploaded files](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-6953f4c7-7a96-4133-9dd3-c314f1c57300?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Delete files](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-2815cbb0-f291-451e-b5a8-075c061eebaf?action=share&source=copy-link&creator=42721875&ctx=documentation)",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "42721875",
 		"_collection_link": "https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/collection/42721875-03179c6a-0bf6-4f72-85c4-25a129a1e099?action=share&source=collection_link&creator=42721875"
@@ -179,7 +179,7 @@
 								"{{model}}:generateContent"
 							]
 						},
-						"description": "# Purpose\n\nThe simplest way to generate text using the Gemini API is to provide the model with a single text-only input.The model wil generate the response based on the input text.\n\n# Expected Behaviour\n\nThe output response will be aligned with the input prompt.The simplest way to generate text using the Gemini API is to provide the model with a single text-only input."
+						"description": "# Purpose\n\nThe simplest way to generate text using the Gemini API is to provide the model with a single text-only input.The model wil generate the response based on the input text.\n\n# Expected Behaviour\n\nThe output response will be aligned with the input prompt."
 					},
 					"response": [
 						{
@@ -202,17 +202,15 @@
 									}
 								},
 								"url": {
-									"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
+									"raw": "https://{{host}}/{{version}}/models/{{model}}:generateContent",
 									"protocol": "https",
 									"host": [
-										"generativelanguage",
-										"googleapis",
-										"com"
+										"{{host}}"
 									],
 									"path": [
-										"v1beta",
+										"{{version}}",
 										"models",
-										"gemini-1.5-flash:generateContent"
+										"{{model}}:generateContent"
 									]
 								}
 							},
@@ -356,7 +354,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"What is in this image?\"\r\n                },\r\n                {\r\n                    \"inline_data\": {\r\n                        \"mime_type\": \"image/jpeg\",\r\n                        \"data\": \"/9j/4AAQSkZJRgABAQEAAAAAAAD/4QAuRXhpZgAATU0AKgAAAAgAAkAAAAMAAAABABoAAEABAAEAAAABAAAAAAAAAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJ...\"\r\n                    }\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+									"raw": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"What is in this image?\"\r\n                },\r\n                {\r\n                    \"inline_data\": {\r\n                        \"mime_type\": \"image/jpeg\",\r\n                        \"data\": \"{{guitar image base64 string}}\"\r\n                    }\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -364,17 +362,15 @@
 									}
 								},
 								"url": {
-									"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
+									"raw": "https://{{host}}/{{version}}/models/{{model}}:generateContent",
 									"protocol": "https",
 									"host": [
-										"generativelanguage",
-										"googleapis",
-										"com"
+										"{{host}}"
 									],
 									"path": [
-										"v1beta",
+										"{{version}}",
 										"models",
-										"gemini-1.5-flash:generateContent"
+										"{{model}}:generateContent"
 									]
 								}
 							},
@@ -520,17 +516,15 @@
 									}
 								},
 								"url": {
-									"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:streamGenerateContent?alt=sse",
+									"raw": "https://{{host}}/{{version}}/models/{{model}}:streamGenerateContent?alt=sse",
 									"protocol": "https",
 									"host": [
-										"generativelanguage",
-										"googleapis",
-										"com"
+										"{{host}}"
 									],
 									"path": [
-										"v1beta",
+										"{{version}}",
 										"models",
-										"gemini-1.5-flash:streamGenerateContent"
+										"{{model}}:streamGenerateContent"
 									],
 									"query": [
 										{
@@ -685,17 +679,15 @@
 									}
 								},
 								"url": {
-									"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
+									"raw": "https://{{host}}/{{version}}/models/{{model}}:generateContent",
 									"protocol": "https",
 									"host": [
-										"generativelanguage",
-										"googleapis",
-										"com"
+										"{{host}}"
 									],
 									"path": [
-										"v1beta",
+										"{{version}}",
 										"models",
-										"gemini-1.5-flash:generateContent"
+										"{{model}}:generateContent"
 									],
 									"query": [
 										{
@@ -848,17 +840,15 @@
 									}
 								},
 								"url": {
-									"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:streamGenerateContent?alt=sse",
+									"raw": "https://{{host}}/{{version}}/models/{{model}}:streamGenerateContent?alt=sse",
 									"protocol": "https",
 									"host": [
-										"generativelanguage",
-										"googleapis",
-										"com"
+										"{{host}}"
 									],
 									"path": [
-										"v1beta",
+										"{{version}}",
 										"models",
-										"gemini-1.5-flash:streamGenerateContent"
+										"{{model}}:streamGenerateContent"
 									],
 									"query": [
 										{
@@ -1004,17 +994,15 @@
 									}
 								},
 								"url": {
-									"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
+									"raw": "https://{{host}}/{{version}}/models/{{model}}:generateContent",
 									"protocol": "https",
 									"host": [
-										"generativelanguage",
-										"googleapis",
-										"com"
+										"{{host}}"
 									],
 									"path": [
-										"v1beta",
+										"{{version}}",
 										"models",
-										"gemini-1.5-flash:generateContent"
+										"{{model}}:generateContent"
 									]
 								}
 							},
@@ -1081,7 +1069,7 @@
 					]
 				}
 			],
-			"description": "Using the Gemini API's , we can generate text output when provided text, images, video, and audio as input. Folllowing are the use cases of text generation\n\n- Content Creation\n    \n- Chatbots and Virtual Assistants\n    \n- Code generation and assistance\n    \n- Summarization and Paraphrasing\n    \n- Personalized Recommendation\n    \n- Interactive Storytelling & Game Development\n    \n- Marketing and Advertisement Copy\n    \n- Language Translation & Localization\n    \n\nIn this folder, you can explore the following requests :\n\n1. Chatbot\n    \n2. Generate Text from Text input\n    \n3. Generate Text from Text and Image as input\n    \n4. Generate a text stream\n    \n5. Interactive Chat\n    \n6. System Instructions"
+			"description": "Using the Gemini API's , we can generate text output when provided text, images, video, and audio as input. Folllowing are the use cases of text generation\n\n- Content Creation\n    \n- Chatbots and Virtual Assistants\n    \n- Code generation and assistance\n    \n- Summarization and Paraphrasing\n    \n- Personalized Recommendation\n    \n- Interactive Storytelling & Game Development\n    \n- Marketing and Advertisement Copy\n    \n- Language Translation & Localization\n    \n\nIn this folder, you can explore the following requests :\n\n1. [Chatbot](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-7fed869c-5a71-4445-88d9-9e3077e1fd8d?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n2. [Generate Text from Text input](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-b7077c27-a665-433b-bcec-920ce2a325b9?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n3. [Generate Text from Text and Image as input](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-60cc8294-c920-4a2a-97bc-36615ab585ca?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n4. [Generate a text stream](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-6e73472e-1b56-49b4-ac22-372e0c33abfd?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n5. [Interactive Chat](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-b53a0572-82d4-4506-a17d-47db14d207d8?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n6. [System Instructions](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-f6889233-d294-4896-8453-7cfa28752d77?action=share&source=copy-link&creator=42721875&ctx=documentation)"
 		},
 		{
 			"name": "Parameter Variation",
@@ -1164,7 +1152,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "// The purpose of topP is to change how the model selects tokens for output.\r\n// Tokens are selected from the most to least probable until the sum of their probabilities equals the topP value.\r\n// Lower topP (e.g., 0.3) = More focused, deterministic responses.\r\n// Higher topP (e.g., 0.9) = More diverse, creative responses.\r\n// Default topP value is 0.95, but here we use 0.8 for a balance between focus and creativity.\r\n{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Write a story about a magic backpack.\"\r\n                } // Request JSON payload\r\n            ]\r\n        }\r\n    ],\r\n    \"generationConfig\": {\r\n        \"topP\": 0.8 // Adjusts response diversity , topP value is set to 0.2\r\n    }\r\n}",
+									"raw": "// The purpose of topP is to change how the model selects tokens for output.\r\n// Tokens are selected from the most to least probable until the sum of their probabilities equals the topP value.\r\n// Lower topP (e.g., 0.3) = More focused, deterministic responses.\r\n// Higher topP (e.g., 0.9) = More diverse, creative responses.\r\n// Default topP value is 0.95, but here we use 0.8 for a balance between focus and creativity.\r\n{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Write a story about a magic backpack.\"\r\n                } // Request JSON payload\r\n            ]\r\n        }\r\n    ],\r\n    \"generationConfig\": {\r\n        \"topP\": {{topP}} // Adjusts response diversity , topP value is set to 0.2\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -1172,17 +1160,15 @@
 									}
 								},
 								"url": {
-									"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
+									"raw": "https://{{host}}/{{version}}/models/{{model}}:generateContent",
 									"protocol": "https",
 									"host": [
-										"generativelanguage",
-										"googleapis",
-										"com"
+										"{{host}}"
 									],
 									"path": [
-										"v1beta",
+										"{{version}}",
 										"models",
-										"gemini-1.5-flash:generateContent"
+										"{{model}}:generateContent"
 									]
 								}
 							},
@@ -1478,7 +1464,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "// The purpose of topK is to change how the model selects tokens for output.\r\n// topK of 3 means that the next token is selected from among the 3 most probabl using the temperature\r\n{\r\n        \"contents\": [{\r\n            \"parts\":[\r\n                {\"text\": \"Write a story about a magic backpack.\"} // Request JSON payload\r\n            ]\r\n        }],\r\n\r\n        \"generationConfig\": {\r\n            \"topK\": 10 // Controls token selection , topK set to 10\r\n        }\r\n}",
+									"raw": "// The purpose of topK is to change how the model selects tokens for output.\r\n// topK of 3 means that the next token is selected from among the 3 most probabl using the temperature\r\n{\r\n        \"contents\": [{\r\n            \"parts\":[\r\n                {\"text\": \"Write a story about a magic backpack.\"} // Request JSON payload\r\n            ]\r\n        }],\r\n\r\n        \"generationConfig\": {\r\n            \"topK\": {{topK}} // Controls token selection , topK set to 10\r\n        }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -1486,17 +1472,15 @@
 									}
 								},
 								"url": {
-									"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
+									"raw": "https://{{host}}/{{version}}/models/{{model}}:generateContent",
 									"protocol": "https",
 									"host": [
-										"generativelanguage",
-										"googleapis",
-										"com"
+										"{{host}}"
 									],
 									"path": [
-										"v1beta",
+										"{{version}}",
 										"models",
-										"gemini-1.5-flash:generateContent"
+										"{{model}}:generateContent"
 									]
 								}
 							},
@@ -1792,7 +1776,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "// temperature controls the randomness of the output.\r\n// higher value - more creative responses\r\n// lower value - more deterministic responses\r\n{\r\n        \"contents\": [{\r\n            \"parts\":[\r\n                {\"text\": \"Describe a futuristic city in 2 lines\"} // Request JSON payload\r\n            ]\r\n        }],\r\n\r\n        \"generationConfig\": {\r\n            \"temperature\": 1 // Controls randomness , temperature set to 0.2\r\n        }\r\n}",
+									"raw": "// temperature controls the randomness of the output.\r\n// higher value - more creative responses\r\n// lower value - more deterministic responses\r\n{\r\n        \"contents\": [{\r\n            \"parts\":[\r\n                {\"text\": \"Describe a futuristic city in 2 lines\"} // Request JSON payload\r\n            ]\r\n        }],\r\n\r\n        \"generationConfig\": {\r\n            \"temperature\": {{temperature}} // Controls randomness , temperature set to 0.2\r\n        }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -1800,17 +1784,15 @@
 									}
 								},
 								"url": {
-									"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
+									"raw": "https://{{host}}/{{version}}/models/{{model}}:generateContent",
 									"protocol": "https",
 									"host": [
-										"generativelanguage",
-										"googleapis",
-										"com"
+										"{{host}}"
 									],
 									"path": [
-										"v1beta",
+										"{{version}}",
 										"models",
-										"gemini-1.5-flash:generateContent"
+										"{{model}}:generateContent"
 									]
 								}
 							},
@@ -2106,7 +2088,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "// stopSequences - specifies the set of character sequences (up to 5) that will stop output generation\r\n// The stop sequence won't be included as part of the response.\r\n{\r\n        \"contents\": [{\r\n            \"parts\":[\r\n                {\"text\": \"Write a story about a magic backpack.\"} // Request JSON payload\r\n            ]\r\n        }],\r\n\r\n        \"generationConfig\": {\r\n            \"stopSequences\":[\r\n                \"Title\" // character value = backpack\r\n            ]\r\n        }\r\n}",
+									"raw": "// stopSequences - specifies the set of character sequences (up to 5) that will stop output generation\r\n// The stop sequence won't be included as part of the response.\r\n{\r\n        \"contents\": [{\r\n            \"parts\":[\r\n                {\"text\": \"Write a story about a magic backpack.\"} // Request JSON payload\r\n            ]\r\n        }],\r\n\r\n        \"generationConfig\": {\r\n            \"stopSequences\":[\r\n                \"{{character}}\" // character value = backpack\r\n            ]\r\n        }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -2114,17 +2096,15 @@
 									}
 								},
 								"url": {
-									"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
+									"raw": "https://{{host}}/{{version}}/models/{{model}}:generateContent",
 									"protocol": "https",
 									"host": [
-										"generativelanguage",
-										"googleapis",
-										"com"
+										"{{host}}"
 									],
 									"path": [
-										"v1beta",
+										"{{version}}",
 										"models",
-										"gemini-1.5-flash:generateContent"
+										"{{model}}:generateContent"
 									]
 								}
 							},
@@ -2418,7 +2398,7 @@
 					]
 				}
 			],
-			"description": "This folder contains API requests demonstrating how different parameters influence the **text generation output** in Gemini. Each request varies a key parameter while keeping the input text consistent, allowing developers to observe the model’s behavior under different conditions.\n\nThe parameters are :-\n\n- top_p\n    \n- top_k\n    \n- temperature\n    \n- stopSequences\n    \n- maxOutputTokens",
+			"description": "This folder contains API requests demonstrating how different parameters influence the **text generation output** in Gemini. Each request varies a key parameter while keeping the input text consistent, allowing developers to observe the model’s behavior under different conditions.\n\nThe parameters are :-\n\n- [top_p](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-ca19ae76-df3e-47b9-9303-2b257952daa0?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [top_k](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-15b9140a-66d6-4d94-9e85-2caf69affb60?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [temperature](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-24289a6d-628a-496c-9a04-d202e11a942c?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [stopSequences](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-d0bd584a-e23c-48c2-b062-aac4fb4ffc1d?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [maxOutputTokens](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-ce246af9-2f76-4ae3-bfe2-ad80efc8c3e4?action=share&source=copy-link&creator=42721875&ctx=documentation)",
 			"auth": {
 				"type": "apikey",
 				"apikey": [
@@ -2514,17 +2494,15 @@
 									}
 								},
 								"url": {
-									"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
+									"raw": "https://{{host}}/{{version}}/models/{{model}}:generateContent",
 									"protocol": "https",
 									"host": [
-										"generativelanguage",
-										"googleapis",
-										"com"
+										"{{host}}"
 									],
 									"path": [
-										"v1beta",
+										"{{version}}",
 										"models",
-										"gemini-1.5-flash:generateContent"
+										"{{model}}:generateContent"
 									]
 								}
 							},
@@ -2633,17 +2611,15 @@
 									}
 								},
 								"url": {
-									"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
+									"raw": "https://{{host}}/{{version}}/models/{{model}}:generateContent",
 									"protocol": "https",
 									"host": [
-										"generativelanguage",
-										"googleapis",
-										"com"
+										"{{host}}"
 									],
 									"path": [
-										"v1beta",
+										"{{version}}",
 										"models",
-										"gemini-1.5-flash:generateContent"
+										"{{model}}:generateContent"
 									]
 								}
 							},
@@ -2709,7 +2685,8 @@
 						}
 					]
 				}
-			]
+			],
+			"description": "## **Generate images using Gemini**\n\nGemini 2.0 Flash Experimental supports the ability to output text and inline images. This lets you use Gemini to conversationally edit images or generate outputs with interwoven text (for example, generating a blog post with text and images in a single turn). All generated images include a [SynthID watermark](https://ai.google.dev/responsible/docs/safeguards/synthid), and images in Google AI Studio include a visible watermark as well.\n\nDepending on the prompt and context, Gemini will generate content in different modes (text to image, text to image and text, etc.). Here are some examples:\n\n``` json\ncurl -s -X POST \\\n  \"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp-image-generation:generateContent?key=$GEMINI_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\n    \"contents\": [{\n      \"parts\": [\n        {\"text\": \"Hi, can you create a 3d rendered image of a pig with wings and a top hat flying over a happy futuristic scifi city with lots of greenery?\"}\n      ]\n    }],\n    \"generationConfig\":{\"responseModalities\":[\"Text\",\"Image\"]}\n  }' \\\n  | grep -o '\"data\": \"[^\"]*\"' \\\n  | cut -d'\"' -f4 \\\n  | base64 --decode > gemini-native-image.png\n\n ```\n\n<img src=\"https://content.pstmn.io/bf621c5f-2c39-4468-a503-cf3b20a4b62b/Zmx5aW5nLXBpZy5wbmc=\" alt=\"AI-generated%20image%20of%20a%20fantastical%20flying%20pig\">\n\n- Text to image\n    \n    - **Example prompt:** \"Generate an image of the Eiffel tower with fireworks in the background.\"\n        \n- Text to image(s) and text (interleaved)\n    \n    - **Example prompt:** \"Generate an illustrated recipe for a paella.\"\n        \n- Image(s) and text to image(s) and text (interleaved)\n    \n    - **Example prompt:** (With an image of a furnished room) \"What other color sofas would work in my space? can you update the image?\"\n        \n- Image editing (text and image to image)\n    \n    - **Example prompt:** \"Edit this image to make it look like a cartoon\"\n        \n    - **Example prompt:** \\[image of a cat\\] + \\[image of a pillow\\] + \"Create a cross stitch of my cat on this pillow.\"\n        \n- Multi-turn image editing (chat)\n    \n    - **Example prompts:** \\[upload an image of a blue car.\\] \"Turn this car into a convertible.\" \"Now change the color to yellow.\""
 		},
 		{
 			"name": "Code Generation",
@@ -2768,17 +2745,15 @@
 									}
 								},
 								"url": {
-									"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
+									"raw": "https://{{host}}/v1beta/models/{{model}}:generateContent",
 									"protocol": "https",
 									"host": [
-										"generativelanguage",
-										"googleapis",
-										"com"
+										"{{host}}"
 									],
 									"path": [
 										"v1beta",
 										"models",
-										"gemini-1.5-flash:generateContent"
+										"{{model}}:generateContent"
 									]
 								}
 							},
@@ -2898,17 +2873,15 @@
 									}
 								},
 								"url": {
-									"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
+									"raw": "https://{{host}}/v1beta/models/{{model}}:generateContent",
 									"protocol": "https",
 									"host": [
-										"generativelanguage",
-										"googleapis",
-										"com"
+										"{{host}}"
 									],
 									"path": [
 										"v1beta",
 										"models",
-										"gemini-1.5-flash:generateContent"
+										"{{model}}:generateContent"
 									]
 								}
 							},
@@ -3077,7 +3050,7 @@
 										"files"
 									]
 								},
-								"description": "To get the MIME_TYPE_VIDEO and NUM_BYTES_VIDEO value go to command promt terminal and write this prompt\n\nMIME_TYPE_VIDEO : file -b --mime-type {{video_path}}  \nNUM_BYTES_VIDEO : wc -c < {{video_path}}"
+								"description": "To make this request , the following values must be obtained first :\n\n- MIME_TYPE_VIDEO\n    \n\nIt is the type of the video (example - video/mp4). To get this follow the steps below :\n\n1. copy this command : `file -b --mime-type \"${VIDEO_PATH}\"` (replace VIDEO_PATH with the path of the video saved on your local machine example - C/Users/John/Desktop/Video/sample )\n    \n2. Paste it in the command prompt of your local machine and put the value in the MIME_TYPE_VIDEO environment variable present in the Gemini-Testing Environment.\n    \n\n- NUM_BYTES_VIDEO\n    \n\n1. copy the command : `wc -c < \"${VIDEO_PATH}\"`(replace VIDEO_PATH with the path of the video saved on your local machine example - C/Users/John/Desktop/Video/sample ).\n    \n2. Paste it in the command prompt of your local machine and put the value in the `NUM_BYTES_VIDEO` environment variable present in the Gemini-Testing Environment.\n    \n\n- DISPLAY_NAME_VIDEO\n    \n\nSet a display name of your video for future reference and storage.Save it in the `DISPLAY_NAME_VIDEO` environment variable.\n\nNow , send the POST request.\n\n**NOTE :** Once the above tasks are completed and the POST request is sent, the `upload_url_video` environment variable will be automatically set with the upload URL. This URL will then be used as the endpoint for uploading the video."
 							},
 							"response": []
 						},
@@ -3161,7 +3134,8 @@
 									"host": [
 										"{{upload_url_video}}"
 									]
-								}
+								},
+								"description": "- In the body section of this request, upload the video from your local machine to the binary type in the body.\n    \n- Once the video is uploaded and the POST request is sent, the `file_uri_video` environment variable will be automatically updated. This URI will be used for content generation."
 							},
 							"response": [
 								{
@@ -3171,7 +3145,7 @@
 										"header": [
 											{
 												"key": "Content-Length",
-												"value": "",
+												"value": "{{NUM_BYTES_VIDEO}}",
 												"type": "text"
 											},
 											{
@@ -3192,7 +3166,10 @@
 											}
 										},
 										"url": {
-											"raw": ""
+											"raw": "{{upload_url_video}}",
+											"host": [
+												"{{upload_url_video}}"
+											]
 										}
 									},
 									"status": "OK",
@@ -3312,7 +3289,8 @@
 										"models",
 										"{{model}}:generateContent"
 									]
-								}
+								},
+								"description": "- Now that everything's done just tell the model to generate content based on the video uploaded."
 							},
 							"response": [
 								{
@@ -3322,7 +3300,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Describe this video clip and name the animals present in the video clip\"\r\n                },\r\n                {\r\n                    \"file_data\": {\r\n                        \"mime_type\": \"\",\r\n                        \"file_uri\": \"\"\r\n                    }\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+											"raw": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Describe this video clip and name the animals present in the video clip\"\r\n                },\r\n                {\r\n                    \"file_data\": {\r\n                        \"mime_type\": \"{{MIME_TYPE_VIDEO}}\",\r\n                        \"file_uri\": \"{{file_uri_video}}\"\r\n                    }\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -3330,17 +3308,15 @@
 											}
 										},
 										"url": {
-											"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
+											"raw": "https://{{host}}/v1beta/models/{{model}}:generateContent",
 											"protocol": "https",
 											"host": [
-												"generativelanguage",
-												"googleapis",
-												"com"
+												"{{host}}"
 											],
 											"path": [
 												"v1beta",
 												"models",
-												"gemini-1.5-flash:generateContent"
+												"{{model}}:generateContent"
 											]
 										}
 									},
@@ -3423,7 +3399,8 @@
 										"v1beta",
 										"files"
 									]
-								}
+								},
+								"description": "Just send the GET request to get all the audio,video and imaged uploaded and their details"
 							},
 							"response": [
 								{
@@ -3507,7 +3484,8 @@
 								}
 							]
 						}
-					]
+					],
+					"description": "In this tutorial, you will upload a video using the File API and generate content based on those images\n\n### Technical details (video)\n\nGemini 1.5 Pro and Flash support up to approximately an hour of video data.\n\nVideo must be in one of the following video format MIME types:\n\n- `video/mp4`\n    \n- `video/mpeg`\n    \n- `video/mov`\n    \n- `video/avi`\n    \n- `video/x-flv`\n    \n- `video/mpg`\n    \n- `video/webm`\n    \n- `video/wmv`\n    \n- `video/3gpp`\n    \n\nThe File API service extracts image frames from videos at 1 frame per second (FPS) and audio at 1Kbps, single channel, adding timestamps every second. These rates are subject to change in the future for improvements in inference.\n\nIndividual frames are 258 tokens, and audio is 32 tokens per second. With metadata, each second of video becomes \\~300 tokens, which means a 1M context window can fit slightly less than an hour of video. As a result, Gemini Pro, which has a 2M context window, can handle a maximum video length of 2 hours, and Gemini Flash, which has a 1M context window, can handle a maximum video length of 1 hour.\n\nTo ask questions about time-stamped locations, use the format `MM:SS`, where the first two digits represent minutes and the last two digits represent seconds.\n\nFor best results:\n\n- Use one video per prompt.\n    \n- If using a single video, place the text prompt after the video\n    \n\n# Tutorial to Generate Content using Video\n\n## 1.Get the Upload_Url\n\nTo make this request , the following values must be obtained first :\n\n- MIME_TYPE_VIDEO\n    \n\nIt is the type of the video (example - video/mp4). To get this follow the steps below :\n\n1. copy this command : `file -b --mime-type \"${VIDEO_PATH}\"` (replace VIDEO_PATH with the path of the video saved on your local machine example - C/Users/John/Desktop/Video/sample )\n    \n2. Paste it in the command prompt of your local machine and put the value in the MIME_TYPE_VIDEO environment variable present in the Gemini-Testing Environment.\n    \n\n- NUM_BYTES_VIDEO\n    \n\n1. copy the command : `wc -c < \"${VIDEO_PATH}\"`(replace VIDEO_PATH with the path of the video saved on your local machine example - C/Users/John/Desktop/Video/sample ).\n    \n2. Paste it in the command prompt of your local machine and put the value in the `NUM_BYTES_VIDEO` environment variable present in the Gemini-Testing Environment.\n    \n\n- DISPLAY_NAME_VIDEO\n    \n\nSet a display name of your video for future reference and storage.Save it in the `DISPLAY_NAME_VIDEO` environment variable.\n\n**NOTE :** Once the above tasks are completed and the POST request is sent, the `upload_url_video` environment variable will be automatically set with the upload URL. This URL will then be used as the endpoint for uploading the video.\n\n## 2.Upload Video\n\n- In the body section of this request, upload the video from your local machine to the binary type in the body.\n    \n- Once the video is uploaded and the POST request is sent, the `file_uri_video` environment variable will be automatically updated. This URI will be used for content generation.\n    \n\n## 3\\. Generate Content\n\n- Now that everything's done just tell the model to generate content based on the video uploaded.\n    \n\n## Possible Errors\n\n### **Upload has already been terminated**\n\nOne might see this error while uploading the video in the 2nd POST Request.This happens as\n\n- The resumable upload URL is reused after finalization\n    \n- if **headers or file binary are mismatched**, the backend might terminate the session\n    \n\n### Solution :\n\n1. Restart the whole process from step 1 , that is Get the upload_url again.\n    \n\n# Still Stuck ?\n\nWatch this tutorial video - [Tutorial To Generate Content using Video Input](https://youtu.be/IjrN0xJydJ4?si=eUDuBA3YJ2UI2WCu)"
 				},
 				{
 					"name": "Image Input",
@@ -3544,7 +3522,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Caption this image.\"\r\n                },\r\n                {\r\n                    \"inline_data\": {\r\n                        \"mime_type\": \"image/jpeg\",\r\n                        \"data\": \"/9j/4AAQSkZJRgABAgEASABIAAD/4gxYSUNDX1BST0ZJTEUAAQEAAAxITGlubwIQAABtbnRyUkdCIFhZWiAHzgACAAkABgAxAABhY3NwTVNGVAAAAABJRUMgc1JHQgAAAAAAAAAAA...\"\r\n                    }\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+									"raw": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"Caption this image.\"\r\n                },\r\n                {\r\n                    \"inline_data\": {\r\n                        \"mime_type\": \"image/jpeg\",\r\n                        \"data\": \"{{nature image base64 string}}\"\r\n                    }\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -3552,17 +3530,15 @@
 									}
 								},
 								"url": {
-									"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
+									"raw": "https://{{host}}/v1beta/models/{{model}}:generateContent",
 									"protocol": "https",
 									"host": [
-										"generativelanguage",
-										"googleapis",
-										"com"
+										"{{host}}"
 									],
 									"path": [
 										"v1beta",
 										"models",
-										"gemini-1.5-flash:generateContent"
+										"{{model}}:generateContent"
 									]
 								}
 							},
@@ -3675,7 +3651,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"inline_data\": {\r\n                        \"mime_type\": \"image/jpeg\",\r\n                        \"data\": \"/9j/4AAQSkZJRgABAQEAAAAAAAD/4QAuRXhpZgAATU0AKgAAAAgAAkAAAAMAAAABABoAAEABAAEAAAABAAAAAAAAAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJ...\"\r\n                    }\r\n                },\r\n                {\r\n                    \"inline_data\": {\r\n                        \"mime_type\": \"image/png\",\r\n                        \"data\": \"/9j/4AAQSkZJRgABAgEASABIAAD/4gxYSUNDX1BST0ZJTEUAAQEAAAxITGlubwIQAABtbnRyUkdCIFhZWiAHzgACAAkABgAxAABhY3NwTVNGVAAAAABJRUMgc1JHQgAAAAAAAAAAA...\"\r\n                    }\r\n                },\r\n                {\r\n                    \"text\": \"Generate a list of all the objects contained in both images.\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+									"raw": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"inline_data\": {\r\n                        \"mime_type\": \"image/jpeg\",\r\n                        \"data\": \"{{guitar image base64 string}}\"\r\n                    }\r\n                },\r\n                {\r\n                    \"inline_data\": {\r\n                        \"mime_type\": \"image/png\",\r\n                        \"data\": \"{{coffee image base64 string}}\"\r\n                    }\r\n                },\r\n                {\r\n                    \"text\": \"Generate a list of all the objects contained in both images.\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -3683,17 +3659,15 @@
 									}
 								},
 								"url": {
-									"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
+									"raw": "https://{{host}}/v1beta/models/{{model}}:generateContent",
 									"protocol": "https",
 									"host": [
-										"generativelanguage",
-										"googleapis",
-										"com"
+										"{{host}}"
 									],
 									"path": [
 										"v1beta",
 										"models",
-										"gemini-1.5-flash:generateContent"
+										"{{model}}:generateContent"
 									]
 								}
 							},
@@ -3806,7 +3780,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"inline_data\": {\r\n                        \"mime_type\": \"image/jpeg\",\r\n                        \"data\": \"/9j/4AAQSkZJRgABAgEASABIAAD/4gxYSUNDX1BST0ZJTEUAAQEAAAxITGlubwIQAABtbnRyUkdCIFhZWiAHzgACAAkABgAxAABhY3NwTVNGVAAAAABJRUMgc1JHQgAAAAAAAAAAA...\"\r\n                    }\r\n                },\r\n                {\r\n                    \"text\": \"Generate bounding boxes for each of the objects in this image in [y_min, x_min, y_max, x_max] format.\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+									"raw": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"inline_data\": {\r\n                        \"mime_type\": \"image/jpeg\",\r\n                        \"data\": \"{{bounding object sample image base64 string}}\"\r\n                    }\r\n                },\r\n                {\r\n                    \"text\": \"Generate bounding boxes for each of the objects in this image in [y_min, x_min, y_max, x_max] format.\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -3814,17 +3788,15 @@
 									}
 								},
 								"url": {
-									"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
+									"raw": "https://{{host}}/v1beta/models/{{model}}:generateContent",
 									"protocol": "https",
 									"host": [
-										"generativelanguage",
-										"googleapis",
-										"com"
+										"{{host}}"
 									],
 									"path": [
 										"v1beta",
 										"models",
-										"gemini-1.5-flash:generateContent"
+										"{{model}}:generateContent"
 									]
 								}
 							},
@@ -4105,7 +4077,10 @@
 									}
 								},
 								"url": {
-									"raw": ""
+									"raw": "{{upload_url_audio}}",
+									"host": [
+										"{{upload_url_audio}}"
+									]
 								}
 							},
 							"status": "OK",
@@ -4243,17 +4218,15 @@
 									}
 								},
 								"url": {
-									"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent",
+									"raw": "https://{{host}}/v1beta/models/{{model}}:generateContent",
 									"protocol": "https",
 									"host": [
-										"generativelanguage",
-										"googleapis",
-										"com"
+										"{{host}}"
 									],
 									"path": [
 										"v1beta",
 										"models",
-										"gemini-1.5-flash:generateContent"
+										"{{model}}:generateContent"
 									]
 								}
 							},
@@ -4422,6 +4395,793 @@
 				}
 			],
 			"description": "Gemini can analyze and understand audio input, enabling use cases like the following:\n\n- Describe, summarize, or answer questions about audio content.\n    \n- Provide a transcription of the audio.\n    \n- Analyze specific segments of the audio.\n    \n\nThis guide shows you how to use the Gemini API to generate a text response to audio input."
+		},
+		{
+			"name": "Video Generation using Veo",
+			"item": [
+				{
+					"name": "Generate from Text",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"instances\": [\r\n        {\r\n            \"prompt\": \"Panning wide shot of a calico kitten sleeping in the sunshine\"\r\n        }\r\n    ],\r\n    \"parameters\": {\r\n        \"aspectRatio\": \"16:9\",\r\n        \"personGeneration\": \"dont_allow\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{host}}/{{version}}/models/veo-2.0-generate-001:predictLongRunning",
+							"protocol": "https",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{version}}",
+								"models",
+								"veo-2.0-generate-001:predictLongRunning"
+							]
+						},
+						"description": "This request takes about 2-3 minutes to run, though it may take longer if resources are constrained. Once it's done running, you should see a video that looks something like this:\n\n<img src=\"https://content.pstmn.io/023a091e-38ad-4992-a422-d99eca12393c/aW1hZ2UucG5n\" alt=\"\" height=\"687\" width=\"1221\">\n\nIf you see an error message instead of a video, this means that resources are constrained and your request couldn't be completed. In this case, run the Request again.\n\nGenerated videos are stored on the server for 2 days, after which they are removed. If you want to save a local copy of your generated video, you must run `result()` and `save()` within 2 days of generation."
+					},
+					"response": []
+				}
+			],
+			"description": "# **Generate video using Veo**\n\n**Note** : Veo is a **paid feature** and will not run in the Free tier. Visit the [Pricing](https://ai.google.dev/gemini-api/docs/pricing#veo-2) page for more details.\n\nThe Gemini API provides access to [Veo 2](https://deepmind.google/technologies/veo/), Google's state-of-the-art video generation model. Veo is designed to help you build next-generation AI applications that transform user prompts and images into high quality video assets.\n\nThis guide will help you get started with Veo using the Gemini API.\n\n## About Veo\n\nVeo is Google's most capable video generation model to date. It generates videos in a wide range of cinematic and visual styles, capturing prompt nuance to render intricate details consistently across frames.\n\nTo learn more and see example output, check out the [Google DeepMind Veo overview](https://deepmind.google/technologies/veo/).\n\n## Specifications\n\n| Modalities | **1.**Text-to-video generation  <br>2.Image-to-video generation |\n| --- | --- |\n| Request latency | Min: 11 seconds  <br>Max: 6 minutes (during peak hours) |\n| Variable length generation | 5-8 seconds |\n| Resolution | 720p |\n| Frame rate | 24fps |\n| Aspect ratio | 16:9 - landscape  <br>9:16 - portrait |\n| Input languages (text-to-video) | English |\n\n**Note:** Check out the [Models](https://ai.google.dev/gemini-api/docs/models#veo-2), [Pricing](https://ai.google.dev/gemini-api/docs/pricing#veo-2), and [Rate limits](https://ai.google.dev/gemini-api/docs/rate-limits) pages for more usage limitations for Veo.\n\nVideos created by Veo are watermarked using [SynthID](https://deepmind.google/technologies/synthid/), our tool for watermarking and identifying AI-generated content, and are passed through safety filters and memorization checking processes that help mitigate privacy, copyright and bias risks."
+		},
+		{
+			"name": "Document Understanding",
+			"item": [
+				{
+					"name": "As Encoded PDF",
+					"item": [
+						{
+							"name": "PDF Input",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"inline_data\": {\r\n                        \"mime_type\": \"application/pdf\",\r\n                        \"data\": \"{{Encoded document}}\"\r\n                    }\r\n                },\r\n                {\r\n                    \"text\": \"Summarize this document\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://{{host}}/{{version}}/models/{{model}}:generateContent",
+									"protocol": "https",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"{{version}}",
+										"models",
+										"{{model}}:generateContent"
+									]
+								},
+								"description": "## Steps\n\nGo to the command prompt of your local machine and enter the following command\n\n`certutil -encode input.pdf output.b64`\n\n1. Place your `input.pdf` file in the same directory where you're running CMD (or specify full path).\n    \n2. Run the above command in CMD.\n    \n3. It will create a new file called `output.b64` that contains the Base64-encoded string of the PDF.\n    \n4. open the file and remove the -------BEGIN CERTIFICATE------------ and ----END CERTIFICATE----------------\n    \n5. Copy the remaining base64 string\n    \n6. paste it in the `Encoded Document` Environment variable present in the Gemini-Testing Environment."
+							},
+							"response": [
+								{
+									"name": "PDF summarize",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"inline_data\": {\r\n                        \"mime_type\": \"application/pdf\",\r\n                        \"data\": \"{{sample document base64 string}}\"\r\n                    }\r\n                },\r\n                {\r\n                    \"text\": \"Summarize this document\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://{{host}}/{{version}}/models/{{model}}:generateContent",
+											"protocol": "https",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"{{version}}",
+												"models",
+												"{{model}}:generateContent"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=UTF-8"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "X-Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Referer"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 17 Apr 2025 10:50:19 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "scaffolding on HTTPServer2"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "0"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "SAMEORIGIN"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "Server-Timing",
+											"value": "gfet4t7; dur=4437"
+										},
+										{
+											"key": "Alt-Svc",
+											"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"candidates\": [\n        {\n            \"content\": {\n                \"parts\": [\n                    {\n                        \"text\": \"This document is a collection of Latin text, commonly known as \\\"Lorem ipsum,\\\" used as placeholder text in design and publishing.  It's interspersed with several bullet points detailing characteristics of the text's formatting and style,  and includes a bar chart comparing three data sets across four rows.  There's also a table with numbered entries, each listing Latin phrases.  The text repeats several phrases and sections, demonstrating the repetitive nature of Lorem ipsum.  The document appears to be an example or template showcasing typography, formatting, and data visualization, rather than conveying specific information or meaning.\\n\"\n                    }\n                ],\n                \"role\": \"model\"\n            },\n            \"finishReason\": \"STOP\",\n            \"avgLogprobs\": -0.61536073290612092\n        }\n    ],\n    \"usageMetadata\": {\n        \"promptTokenCount\": 1294,\n        \"candidatesTokenCount\": 121,\n        \"totalTokenCount\": 1415,\n        \"promptTokensDetails\": [\n            {\n                \"modality\": \"DOCUMENT\",\n                \"tokenCount\": 1290\n            },\n            {\n                \"modality\": \"TEXT\",\n                \"tokenCount\": 4\n            }\n        ],\n        \"candidatesTokensDetails\": [\n            {\n                \"modality\": \"TEXT\",\n                \"tokenCount\": 121\n            }\n        ]\n    },\n    \"modelVersion\": \"gemini-1.5-flash\"\n}"
+								}
+							]
+						}
+					],
+					"description": "You can process PDF documents directly from base64 string. Here's how to do this :-\n\n## Steps\n\nGo to the command prompt of your local machine and enter the following command\n\n`certutil -encode input.pdf output.b64`\n\n1. Place your `input.pdf` file in the same directory where you're running CMD (or specify full path).\n    \n2. Run the above command in CMD.\n    \n3. It will create a new file called `output.b64` that contains the Base64-encoded string of the PDF.\n    \n4. open the file and remove the -------BEGIN CERTIFICATE------------ and ----END CERTIFICATE----------------\n    \n5. Copy the remaining base64 string\n    \n6. paste it in the `Encoded Document` Environment variable present in the `Gemini-Testing Environment.`"
+				},
+				{
+					"name": "Upload PDF for larger files",
+					"item": [
+						{
+							"name": "1.PDF upload_url",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"let upload_url_header = pm.response.headers.get(\"x-goog-upload-url\"); // Get the upload URL from the response headers\r",
+											"if (upload_url_header){\r",
+											"pm.environment.set(\"upload_url_pdf\", upload_url_header);\r",
+											"}\r",
+											"else{\r",
+											"    console.log(\"Unable to get the upload url , check the MIME_TYPE_PDF,API KEY,NUM_BYTES_PDF environment variables\")\r",
+											"}"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "key",
+											"value": "key",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "value",
+											"value": "{{api key}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "X-Goog-Upload-Protocol",
+										"value": "resumable",
+										"type": "text"
+									},
+									{
+										"key": "X-Goog-Upload-Command",
+										"value": "start",
+										"type": "text"
+									},
+									{
+										"key": "X-Goog-Upload-Header-Content-Type",
+										"value": "{{MIME_TYPE_PDF}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"file\": {\r\n        \"display_name\": \"{{DISPLAY_NAME_PDF}}\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://{{host}}/upload/v1beta/files",
+									"protocol": "https",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"upload",
+										"v1beta",
+										"files"
+									]
+								},
+								"description": "To make this request , the following values must be obtained first :\n\n- MIME_TYPE_PDF\n    \n\nIt is the type of the video (example - application/pdf). To get this follow the steps below :\n\n1. copy this command : `file -b --mime-type \"${PDF_PATH}\"` (replace PDF_PATH with the path of the video saved on your local machine example - C/Users/John/Desktop/Docs/sample_pdf.pdf )\n    \n2. Paste it in the command prompt of your local machine and put the value in the `MIME_TYPE_PDF`environment variable present in the Gemini-Testing Environment.\n    \n\n- DISPLAY_NAME_PDF\n    \n\nSet a display name of your video for future reference and storage.Save it in the `DISPLAY_NAME_PDF` environment variable.\n\nNow , send the POST request.\n\n**NOTE :** Once the above tasks are completed and the POST request is sent, the `upload_url_pdf` environment variable will be automatically set with the upload URL. This URL will then be used as the endpoint for uploading the video."
+							},
+							"response": [
+								{
+									"name": "1.PDF upload_url",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "X-Goog-Upload-Protocol",
+												"value": "resumable",
+												"type": "text"
+											},
+											{
+												"key": "X-Goog-Upload-Command",
+												"value": "start",
+												"type": "text"
+											},
+											{
+												"key": "X-Goog-Upload-Header-Content-Type",
+												"value": "{{MIME_TYPE_PDF}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"file\": {\r\n    \"display_name\": \"{{DISPLAY_NAME_PDF}}\"\r\n  }\r\n}\r\n",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://{{host}}/upload/v1beta/files",
+											"protocol": "https",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"upload",
+												"v1beta",
+												"files"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain; charset=utf-8"
+										},
+										{
+											"key": "X-GUploader-UploadID",
+											"value": "AKDAyIt6CUvhgjmsFwNjRL-M3_GnYFRe0stBu5DnDn0xnicc0DHyYGtIZoNTN5gbqK4uAo47OZGjT-XOGtFo_PysvAXdwGSHSZfWO3v87yYW2yA"
+										},
+										{
+											"key": "X-Goog-Upload-Status",
+											"value": "active"
+										},
+										{
+											"key": "X-Goog-Upload-URL",
+											"value": "https://generativelanguage.googleapis.com/upload/v1beta/files?key={{vault:google-api-key}}&upload_id=AKDAyIt6CUvhgjmsFwNjRL-M3_GnYFRe0stBu5DnDn0xnicc0DHyYGtIZoNTN5gbqK4uAo47OZGjT-XOGtFo_PysvAXdwGSHSZfWO3v87yYW2yA&upload_protocol=resumable"
+										},
+										{
+											"key": "X-Goog-Upload-Control-URL",
+											"value": "https://generativelanguage.googleapis.com/upload/v1beta/files?key={{vault:google-api-key}}&upload_id=AKDAyIt6CUvhgjmsFwNjRL-M3_GnYFRe0stBu5DnDn0xnicc0DHyYGtIZoNTN5gbqK4uAo47OZGjT-XOGtFo_PysvAXdwGSHSZfWO3v87yYW2yA&upload_protocol=resumable"
+										},
+										{
+											"key": "X-Goog-Upload-Chunk-Granularity",
+											"value": "8388608"
+										},
+										{
+											"key": "X-Goog-Upload-Header-x-google-esf-cloud-client-params",
+											"value": "backend_service_name: \"generativelanguage.googleapis.com\" backend_fully_qualified_method: \"google.ai.generativelanguage.v1beta.FileService.CreateFile\""
+										},
+										{
+											"key": "X-Goog-Upload-Header-X-Google-Session-Info",
+											"value": "GgQYECgLIAE6IxIhZ2VuZXJhdGl2ZWxhbmd1YWdlLmdvb2dsZWFwaXMuY29t"
+										},
+										{
+											"key": "X-Goog-Upload-Header-X-Google-Backends",
+											"value": "unix:/tmp/esfbackend.1744852024.522086.3795672"
+										},
+										{
+											"key": "X-Goog-Upload-Header-Content-Type",
+											"value": "application/json; charset=UTF-8"
+										},
+										{
+											"key": "X-Goog-Upload-Header-X-Google-Security-Signals",
+											"value": "FRAMEWORK=ONE_PLATFORM,ENV=borg,ENV_DEBUG=borg_user:genai-api;borg_job:prod.genai-api"
+										},
+										{
+											"key": "X-Goog-Upload-Header-Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "X-Goog-Upload-Header-Vary",
+											"value": "X-Origin"
+										},
+										{
+											"key": "X-Goog-Upload-Header-Vary",
+											"value": "Referer"
+										},
+										{
+											"key": "X-Goog-Upload-Header-X-Google-GFE-Backend-Request-Cost",
+											"value": "32.7162"
+										},
+										{
+											"key": "Content-Length",
+											"value": "0"
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 17 Apr 2025 11:56:34 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "UploadServer"
+										},
+										{
+											"key": "Alt-Svc",
+											"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+										}
+									],
+									"cookie": [],
+									"body": null
+								}
+							]
+						},
+						{
+							"name": "2.Upload PDF",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"const response = pm.response.json();\r",
+											"if(response.file.uri){\r",
+											"    pm.environment.set(\"file_uri_pdf\",response.file.uri);\r",
+											"}\r",
+											"else{\r",
+											"    console.log(\"Unable to get the file_uri_pdf, kindly check the audio uploaded ,upload_url_video and the headers\")\r",
+											"}"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "key",
+											"value": "key",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "value",
+											"value": "{{api key}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "X-Goog-Upload-Offset",
+										"value": "0",
+										"type": "text"
+									},
+									{
+										"key": "X-Goog-Upload-Command",
+										"value": "upload, finalize",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "file",
+									"file": {
+										"src": "postman-cloud:///1f01b833-489f-4ed0-aab0-20c8ea58cfa1"
+									}
+								},
+								"url": {
+									"raw": "{{upload_url_pdf}}",
+									"host": [
+										"{{upload_url_pdf}}"
+									]
+								},
+								"description": "- In the body section of this request, upload the pdf from your local machine to the binary type in the body.\n    \n- Once the video is uploaded and the POST request is sent, the `file_uri_pdf` environment variable will be automatically updated. This URI will be used for content generation."
+							},
+							"response": [
+								{
+									"name": "2.Upload PDF",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Length",
+												"value": "{{NUM_BYTES_PDF}}",
+												"type": "text",
+												"disabled": true
+											},
+											{
+												"key": "X-Goog-Upload-Offset",
+												"value": "0",
+												"type": "text"
+											},
+											{
+												"key": "X-Goog-Upload-Command",
+												"value": "upload, finalize",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "file",
+											"file": {
+												"src": "postman-cloud:///1f01b833-489f-4ed0-aab0-20c8ea58cfa1"
+											}
+										},
+										"url": {
+											"raw": "{{upload_url_pdf}}",
+											"host": [
+												"{{upload_url_pdf}}"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "X-GUploader-UploadID",
+											"value": "AKDAyIt6CUvhgjmsFwNjRL-M3_GnYFRe0stBu5DnDn0xnicc0DHyYGtIZoNTN5gbqK4uAo47OZGjT-XOGtFo_PysvAXdwGSHSZfWO3v87yYW2yA"
+										},
+										{
+											"key": "X-Goog-Upload-Status",
+											"value": "final"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=UTF-8"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "X-Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Referer"
+										},
+										{
+											"key": "Content-Length",
+											"value": "543"
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 17 Apr 2025 11:58:07 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "UploadServer"
+										},
+										{
+											"key": "Alt-Svc",
+											"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"file\": {\n        \"name\": \"files/nhxvsg3nfz3i\",\n        \"displayName\": \"sample_pdf\",\n        \"mimeType\": \"application/pdf\",\n        \"sizeBytes\": \"469513\",\n        \"createTime\": \"2025-04-17T11:58:07.026071Z\",\n        \"updateTime\": \"2025-04-17T11:58:07.026071Z\",\n        \"expirationTime\": \"2025-04-19T11:58:06.990459995Z\",\n        \"sha256Hash\": \"ZTgzMDE0ZTcxZmM4ZTc3MmI3Njg5YTNmMWM4NjI4YTJlZjI4NTJhMWEzOGUzMWJkZGFmODIzNjE1NTcwZTcwOQ==\",\n        \"uri\": \"https://generativelanguage.googleapis.com/v1beta/files/nhxvsg3nfz3i\",\n        \"state\": \"ACTIVE\",\n        \"source\": \"UPLOADED\"\n    }\n}"
+								}
+							]
+						},
+						{
+							"name": "3.Generate Content using the PDF",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "key",
+											"value": "key",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "value",
+											"value": "{{api key}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\t\"contents\": [\r\n\t\t{\r\n\t\t\t\"parts\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"text\": \"Summarize the pdf\"\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"file_data\": {\r\n\t\t\t\t\t\t\"mime_type\": \"{{MIME_TYPE_PDF}}\",\r\n\t\t\t\t\t\t\"file_uri\": \"{{file_uri_pdf}}\"\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t}\r\n\t]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://{{host}}/v1beta/models/{{model}}:generateContent",
+									"protocol": "https",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"v1beta",
+										"models",
+										"{{model}}:generateContent"
+									]
+								},
+								"description": "- Now that everything's done, just tell the model to generate content based on the PDF Uploaded."
+							},
+							"response": [
+								{
+									"name": "3.Generate Content using the Video File Copy",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\t\"contents\": [\r\n\t\t{\r\n\t\t\t\"parts\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"text\": \"Summarize the pdf\"\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"file_data\": {\r\n\t\t\t\t\t\t\"mime_type\": \"{{MIME_TYPE_PDF}}\",\r\n\t\t\t\t\t\t\"file_uri\": \"{{file_uri_pdf}}\"\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t}\r\n\t]\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://{{host}}/v1beta/models/{{model}}:generateContent",
+											"protocol": "https",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"v1beta",
+												"models",
+												"{{model}}:generateContent"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=UTF-8"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "X-Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Referer"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 17 Apr 2025 11:58:24 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "scaffolding on HTTPServer2"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "0"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "SAMEORIGIN"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "Server-Timing",
+											"value": "gfet4t7; dur=4615"
+										},
+										{
+											"key": "Alt-Svc",
+											"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"candidates\": [\n        {\n            \"content\": {\n                \"parts\": [\n                    {\n                        \"text\": \"The PDF is a document filled with Lorem ipsum text, a placeholder text commonly used in the graphic design and printing industries.  The text is interspersed with bullet points and a bar chart.  The main body of the text repeats similar phrases and sentences across multiple pages, suggesting it's primarily for visual design purposes rather than conveying specific information.  There is also a small table with numbered rows and columns containing more Lorem ipsum.  The PDF does not contain a coherent, meaningful narrative or argument.\\n\"\n                    }\n                ],\n                \"role\": \"model\"\n            },\n            \"finishReason\": \"STOP\",\n            \"avgLogprobs\": -0.53461108488195086\n        }\n    ],\n    \"usageMetadata\": {\n        \"promptTokenCount\": 1294,\n        \"candidatesTokenCount\": 102,\n        \"totalTokenCount\": 1396,\n        \"promptTokensDetails\": [\n            {\n                \"modality\": \"TEXT\",\n                \"tokenCount\": 4\n            },\n            {\n                \"modality\": \"DOCUMENT\",\n                \"tokenCount\": 1290\n            }\n        ],\n        \"candidatesTokensDetails\": [\n            {\n                \"modality\": \"TEXT\",\n                \"tokenCount\": 102\n            }\n        ]\n    },\n    \"modelVersion\": \"gemini-1.5-flash\"\n}"
+								}
+							]
+						}
+					],
+					"description": "For **Larger files** you can use the File API to upload a document of any size. Always use the File API when the total request size (including the files, text prompt, system instructions, etc.) is larger than 20 MB."
+				}
+			],
+			"description": "The Gemini API supports PDF input, including long documents (up to 3600 pages). Gemini models process PDFs with native vision, and are therefore able to understand both text and image contents inside documents. With native PDF vision support, Gemini models are able to:\n\n- Analyze diagrams, charts, and tables inside documents.\n    \n- Extract information into structured output formats.\n    \n- Answer questions about visual and text contents in documents.\n    \n- Summarize documents.\n    \n- Transcribe document content (e.g. to HTML) preserving layouts and formatting, for use in downstream applications (such as in RAG pipelines).\n    \n\nThis tutorial demonstrates some possible ways to use the Gemini API with PDF documents. All output is text-only.\n\n## Prompting with PDFs\n\nThis guide demonstrates how to upload and process PDFs using the File API or by including them as inline data.\n\n### Technical details\n\nGemini 1.5 Pro and 1.5 Flash support a maximum of 3,600 document pages. Document pages must be in one of the following text data MIME types:\n\n- PDF - `application/pdf`\n    \n- JavaScript - `application/x-javascript`, `text/javascript`\n    \n- Python - `application/x-python`, `text/x-python`\n    \n- TXT - `text/plain`\n    \n- HTML - `text/html`\n    \n- CSS - `text/css`\n    \n- Markdown - `text/md`\n    \n- CSV - `text/csv`\n    \n- XML - `text/xml`\n    \n- RTF - `text/rtf`\n    \n\nEach document page is equivalent to 258 tokens.\n\nWhile there are no specific limits to the number of pixels in a document besides the model's context window, larger pages are scaled down to a maximum resolution of 3072x3072 while preserving their original aspect ratio, while smaller pages are scaled up to 768x768 pixels. There is no cost reduction for pages at lower sizes, other than bandwidth, or performance improvement for pages at higher resolution.\n\nFor best results:\n\n- Rotate pages to the correct orientation before uploading.\n    \n- Avoid blurry pages.\n    \n- If using a single page, place the text prompt after the page\n    \n\n## PDF input\n\nFor PDF payloads under 20MB, you can choose between uploading base64 encoded documents or directly uploading locally stored files.\n\n## As inline_data\n\nYou can process PDF documents directly from URLs.  \n  \n  \n  \n  \n  \n  \n\n###"
+		},
+		{
+			"name": "Uploaded File Management",
+			"item": [
+				{
+					"name": "Get all the uploaded files",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{host}}/{{version}}/files",
+							"protocol": "https",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{version}}",
+								"files"
+							]
+						},
+						"description": "Just send the GET request to get all the audio,video,images,documents uploaded and their details."
+					},
+					"response": []
+				},
+				{
+					"name": "Delete files",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://{{host}}/{{version}}/files?name={{Delete_file_name}}",
+							"protocol": "https",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"{{version}}",
+								"files"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "{{Delete_file_name}}"
+								}
+							]
+						},
+						"description": "Files uploaded using the File API are automatically deleted after 2 days. You can also manually delete them using [<code>files.delete</code>](https://ai.google.dev/api/files#method:-files.delete)."
+					},
+					"response": []
+				}
+			],
+			"description": "In this folder you can manage all the files ( audio, video, documents etc. ) that you have uploaed. You can :-\n\n- [Get all the files uploaded](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-6953f4c7-7a96-4133-9dd3-c314f1c57300?action=share&source=copy-link&creator=42721875&ctx=documentation)\n    \n- [Delete files](https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/request/42721875-2815cbb0-f291-451e-b5a8-075c061eebaf?action=share&source=copy-link&creator=42721875&ctx=documentation)"
 		},
 		{
 			"name": "Long Understanding",

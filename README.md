@@ -4,7 +4,7 @@ This project is aimed for the developers to interact with the Gemini API's throu
 
 ![image](https://github.com/user-attachments/assets/45f05066-b28f-4393-a507-1a97dbdbe157)
 
-
+For a detailed walkthrough on getting started with this workspace and other onboarding videos, please refer to our [YouTube channel](https://youtube.com/@gemini-workspace?si=qhGk521dJ6MK4eS1).
 
 # Get Started
 This Gemini-Workspace Repository contains the JSON exported file of the Gemini-API collection containing all the Gemini features and API requests, Gemini - Testing and Production environment ,Scripts, GitHub Workflows for Automation via GitHub Action to ensure that the Workspace remains up to date by automatically fetching the latest Gemini API changes and updating the workspace on regular intervals.

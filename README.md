@@ -2,7 +2,8 @@
 
 This project is aimed for the developers to interact with the Gemini API's through the Gemini Workspace in postman providing a central hub for exploration,integration and troubleshooting.This will reduce the initial learning curve to get started with the Gemini API's.
 
-![image](https://github.com/user-attachments/assets/45f05066-b28f-4393-a507-1a97dbdbe157)
+![image](https://github.com/user-attachments/assets/34dbaa61-249f-4576-8a2c-df6d1c44c861)
+
 
 For a detailed walkthrough on getting started with this workspace and other onboarding videos, please refer to our [YouTube channel](https://youtube.com/@gemini-workspace?si=qhGk521dJ6MK4eS1).
 

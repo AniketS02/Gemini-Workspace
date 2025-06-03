@@ -2,16 +2,17 @@
 
 This project is aimed for the developers to interact with the Gemini API's through the Gemini Workspace in postman providing a central hub for exploration,integration and troubleshooting.This will reduce the initial learning curve to get started with the Gemini API's.
 
-![image](https://github.com/user-attachments/assets/45f05066-b28f-4393-a507-1a97dbdbe157)
+![image](https://github.com/user-attachments/assets/34dbaa61-249f-4576-8a2c-df6d1c44c861)
 
 
+For a detailed walkthrough on getting started with this workspace and other onboarding videos, please refer to our [YouTube channel](https://youtube.com/@gemini-workspace?si=qhGk521dJ6MK4eS1).
 
 # Get Started
 This Gemini-Workspace Repository contains the JSON exported file of the Gemini-API collection containing all the Gemini features and API requests, Gemini - Testing and Production environment ,Scripts, GitHub Workflows for Automation via GitHub Action to ensure that the Workspace remains up to date by automatically fetching the latest Gemini API changes and updating the workspace on regular intervals.
 
 ## Step 1 : Fork the collection
 
-You cannot directly make changes to the orignal collection , so you need to fork it first before using it. To fork the collection , simply go to the Gemini API collection -https://www.postman.com/satellite-engineer-7820704/workspace/gemini-workspace/collection/42721875-03179c6a-0bf6-4f72-85c4-25a129a1e099?action=share&creator=42721875&active-environment=42721875-f63662b7-638b-41da-a6d5-0d1225b45409 and click the fork button on the top right side. You can also click the below button to fork the collection ⬇️.
+You cannot directly make changes to the orignal collection , so you need to fork it first before using it. To fork the collection , simply click the run in postman button given below ⬇️.
 
   [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman">](https://app.getpostman.com/run-collection/42721875-03179c6a-0bf6-4f72-85c4-25a129a1e099?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D42721875-03179c6a-0bf6-4f72-85c4-25a129a1e099%26entityType%3Dcollection%26workspaceId%3D2f9d5f9f-aea6-4fdf-bb27-0b87d62b69f9)
 
